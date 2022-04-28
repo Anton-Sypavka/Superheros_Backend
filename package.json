@@ -1,0 +1,51 @@
+{
+  "name": "javascript_ninjas_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ",
+    "start:nodemon": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton-Sypavka/JavaScript_Ninjas_Test_Task.git"
+  },
+  "author": "Anton Sypavka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton-Sypavka/JavaScript_Ninjas_Test_Task/issues"
+  },
+  "homepage": "https://github.com/Anton-Sypavka/JavaScript_Ninjas_Test_Task#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.2.1",
+    "express-formidable": "^1.2.0",
+    "express-rate-limit": "^5.3.0",
+    "joi": "^17.6.0",
+    "mongoose": "^6.0.11",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.987.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "4.3.0",
+    "lint-staged": "^11.1.2",
+    "morgan": "^1.10.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
+  }
+}
