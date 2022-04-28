@@ -25,7 +25,7 @@ app.options('*', cors());
 // }
 
 app.use('/superheros', superherosRouter);
-app.get('/ping', (req, res) => res.send('pong');
+app.get('/ping', (req, res) => res.send('pong'));
 app.use(_globalErrorHandler);
 
 app.listen(PORT, () => {
