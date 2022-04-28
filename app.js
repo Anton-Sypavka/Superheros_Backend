@@ -2,7 +2,7 @@ const cors = require('cors');
 const express = require('express');
 const expressFileUpload = require('express-fileupload');
 const mongoose = require('mongoose');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 
 const formidableMiddleware = require('express-formidable');
 
@@ -20,9 +20,9 @@ app.use(cors());
 app.options('*', cors());
 
 
-if (process.env.ENV === 'development') {
-    app.use(morgan('dev'));
-}
+// if (process.env.ENV === 'development') {
+//     app.use(morgan('dev'));
+// }
 
 app.use('/superheros', superherosRouter);
 app.use(_globalErrorHandler);
