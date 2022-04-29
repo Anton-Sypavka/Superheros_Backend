@@ -1,6 +1,6 @@
 # Getting Started
 
-To run the application locally you have to do a few steps: 
+To run the application locally you need to take a few steps:
 1) Clone repository from github - https://github.com/Anton-Sypavka/Superheros_Backend.
 2) Copy the .env.example file to the root directory, rename it to .env and fill in all the variables with the correct data.
 3) Run command `npm run start`.
